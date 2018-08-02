@@ -262,6 +262,11 @@
 				CLASSPREFIX = NMSSH;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Nine Muses AB";
+				TargetAttributes = {
+					18A0964E17D6A8C4008B76FB = {
+						DevelopmentTeam = C7G63Q6LZ9;
+					};
+				};
 			};
 			buildConfigurationList = 18A0962617D6A85F008B76FB /* Build configuration list for PBXProject "NMSSH-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -401,6 +406,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = C7G63Q6LZ9;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -427,6 +433,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C7G63Q6LZ9;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
