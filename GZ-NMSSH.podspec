@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.libraries    = 'z'
   spec.framework    = 'CFNetwork'
 
-  spec.ios.deployment_target  = '7.0'
+  spec.ios.deployment_target  = '9.0'
   spec.ios.preserve_paths = 'NMSSH-iOS/libssh2'
   spec.ios.vendored_frameworks = ['NMSSH-iOS/libssh2/libcrypto.xcframework', 'NMSSH-iOS/libssh2/libssl.xcframework', 'NMSSH-iOS/libssh2/libssh2.xcframework']
   spec.ios.source_files       = 'NMSSH-iOS', 'NMSSH-iOS/libssh2/**/*.h'
