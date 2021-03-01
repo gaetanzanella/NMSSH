@@ -1,0 +1,12 @@
+module Libssh2 {
+
+    header "headers/libssh2.h"
+    header "headers/libssh2_sftp.h"
+    header "headers/libssh2_publickey.h"
+
+    link "ssl"
+    link "crypto"
+    link "ssh2"
+    
+    export *
+}
