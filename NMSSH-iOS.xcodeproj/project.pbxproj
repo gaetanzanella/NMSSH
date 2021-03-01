@@ -22,7 +22,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		186CC9721B69117D00F674C4 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 186CC9711B69117D00F674C4 /* NMSSH.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186CC9741B69123900F674C4 /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B4FE82188C8195004E05FF /* NMSSH+Protected.h */; };
 		186CC9751B69125400F674C4 /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0966D17D6AA51008B76FB /* NMSSHChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186CC9761B69125400F674C4 /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0966A17D6AA51008B76FB /* NMSFTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,7 +73,6 @@
 /* Begin PBXFileReference section */
 		186CC9581B69110500F674C4 /* NMSSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NMSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		186CC95B1B69110500F674C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186CC9711B69117D00F674C4 /* NMSSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = "NMSSH-iOS/NMSSH.h"; sourceTree = SOURCE_ROOT; };
 		18A0963017D6A85F008B76FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18A0964F17D6A8C4008B76FB /* NMSSH Static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NMSSH Static.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A0965817D6A8C4008B76FB /* NMSSH-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMSSH-Prefix.pch"; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 		186CC9591B69110500F674C4 /* NMSSH */ = {
 			isa = PBXGroup;
 			children = (
-				186CC9711B69117D00F674C4 /* NMSSH.h */,
 				186CC95A1B69110500F674C4 /* Supporting Files */,
 			);
 			path = NMSSH;
@@ -259,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E1AE9A25ECEF2400C048B6 /* libssh2_publickey.h in Headers */,
-				186CC9721B69117D00F674C4 /* NMSSH.h in Headers */,
 				186CC9751B69125400F674C4 /* NMSSHChannel.h in Headers */,
 				186CC9761B69125400F674C4 /* NMSFTP.h in Headers */,
 				186CC9771B69125400F674C4 /* NMSFTPFile.h in Headers */,
