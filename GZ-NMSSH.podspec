@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.platform = :ios
-  spec.platform = :osx
 
   spec.source_files = 'NMSSH', 'NMSSH/**/*.{h,m}'
   spec.public_header_files  = 'NMSSH/*.h', 'NMSSH/Protocols/*.h', 'NMSSH/Config/NMSSHLogger.h'
