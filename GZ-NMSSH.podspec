@@ -24,11 +24,12 @@ Pod::Spec.new do |spec|
   spec.ios.source_files       = 'NMSSH-iOS', 'NMSSH-iOS/libssh2/**/*.h'
   spec.ios.public_header_files  = 'NMSSH-iOS/libssh2/**/*.h'
 
-  spec.xcconfig = {
+  spec.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GZ-NMSSH/NMSSH-iOS/libssh2',
     'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/GZ-NMSSH/NMSSH-iOS/libssh2',
     'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GZ-NMSSH/NMSSH-iOS/libssh2',
     "OTHER_LDFLAGS" => "-ObjC",
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64'
   }
 
 end
