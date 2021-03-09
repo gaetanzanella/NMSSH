@@ -127,7 +127,7 @@ typedef NS_ENUM(NSInteger, NMSSHChannelType)  {
  @param error Error handler
  @returns Shell initialization success
  */
-- (BOOL)startShell:(NSError * _Nullable * _Nullable)error;
+- (BOOL)startShellWithCallbackQueue:(dispatch_queue_t _Nonnull)callbackQueue error:(NSError * _Nullable * _Nullable)error;
 
 /**
  Close a remote shell on an active channel.
@@ -178,7 +178,7 @@ typedef NS_ENUM(NSInteger, NMSSHChannelType)  {
  @param timeout The time to wait (in seconds) before giving up on the request
  @returns Shell write success
  */
-- (BOOL)writeData:(nonnull NSData *)data error:(NSError * _Nullable * _Nullable)error timeout:(nonnull NSNumber *)timeout;
+- (BOOL)writeData:(nonnull NSData *)data timeout:(nonnull NSNumber *)timeout error:(NSError * _Nullable * _Nullable)error;
 
 /**
  Request size for the remote pseudo terminal.
